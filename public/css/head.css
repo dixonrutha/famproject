@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Calligraffitti);
+
+.container {
+ 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+h1 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #27466f;
+  text-align: center;
+  top: 19%;
+  left: 50%;
+ 
+  font-weight: normal;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  transform: translate3d(-50%,-50%,0);
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    h1 {
+        font-size: 3em;
+    }
+}
+@media only screen and (max-width : 480px) {
+
+    h1 {
+        font-size: 2em;
+        top: 250px;
+    }
+}
